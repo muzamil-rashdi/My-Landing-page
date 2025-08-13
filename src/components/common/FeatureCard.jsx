@@ -1,9 +1,9 @@
 import React from "react";
 
- const FeatureCard=({ svg, title, description, width })=> {
+ const FeatureCard=({ svg, title, description })=> {
   return (
     <div
-      className={`bg-gray-100 md:h-full rounded-xl px-6 py-6 flex flex-col gap-4 mx-1`}
+      className={`bg-gray-100 md:h-full rounded-xl px-6 py-6 flex flex-col gap-4 mx-1 justify-between`}
 
     >
       {svg && <div>{svg}</div>}

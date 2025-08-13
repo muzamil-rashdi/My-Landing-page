@@ -24,29 +24,35 @@ const PropertyMaintenance = () => {
         <h1 className="text-3xl md:text-6xl mt-2 md:mt-5">
             Everything You Need To Manage Repairs Without The Headaches
         </h1>
-        <p className="text-md md:text-xl mt-3 md:mt-16 text-[#242424]">
+        <p className="text-md md:text-xl mt-3 md:mt-16 text-[#808080] leading-tight">
             We handle repair requests from start to finish, including vendor dispatch and real-time progress updates. You stay in control without dealing with calls, scheduling, or follow ups.
         </p>
         </div>
-        <div className="my-12 flex gap-10 flex-col lg:flex-row ">
+        <div className="my-12 flex gap-1 flex-col lg:flex-row justify-center items center">
+               
+
 
                    <FeatureCard
                    svg={mySvg1}
                    title="We Handle Maintenance For You"
                    description="Tenants submit requests through our system, and we take care of assigning the right vendor. No calls, no back-and-forth, no stress."
-                   width="420px\" 
                   />
+
+
+
+
                    <FeatureCard
                    svg={mySvg2}
-                   title="We Handle Maintenance For You"
-                   description="Tenants submit requests through our system, and we take care of assigning the right vendor. No calls, no back-and-forth, no stress."
-                   width="420px" 
-                  />                    
+                   title="You Can See What's Going On"
+                   description="Track the status of every job in your dashboard. Get updates, photos, and invoices without having to follow up with tenants or vendors."
+                  />  
+
+
+
                   <FeatureCard
                    svg={mySvg3}
-                   title="We Handle Maintenance For You"
-                   description="Tenants submit requests through our system, and we take care of assigning the right vendor. No calls, no back-and-forth, no stress."
-                   width="420px" 
+                   title="Everything is in one place"
+                   description="All requests, jobs, and payments are managed through one simple platform. No disorganized texts, emails, or paperwork."
                   />
         </div>
     </section>

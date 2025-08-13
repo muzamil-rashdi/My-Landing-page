@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from "./components/Navbar";
 import Hero from "./components/Heros";
 import PropertyMaintenance from "./components/PropertyMaintenance";
+import RepairManagemen from "./components/RepairManagement";
 function App() {
   return (
         <>
@@ -11,6 +12,7 @@ function App() {
         <Navbar/>
         <Hero />
         <PropertyMaintenance/>
+        <RepairManagemen/>
         </div>
         </>
   );
