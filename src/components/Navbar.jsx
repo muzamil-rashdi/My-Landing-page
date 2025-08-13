@@ -19,9 +19,6 @@ const Navbar = () => {
 
   <img className="h-7 w-21" src={logo} alt="Logo" />
 
-
-
- 
       <div className="hidden md:flex gap-[20px]">
         {links.map((link) => (
           <a
@@ -68,12 +65,8 @@ const Navbar = () => {
               {link}
             </a>
           ))}
-          <button className="bg-[#3CAB5C] text-white px-5 py-2 rounded-md hover:bg-[#34a152] transition">
-            Get started
-          </button>
-          <button className="bg-[#3CAB5C] text-white px-5 py-2 rounded-md hover:bg-[#34a152] transition">
-            Submit a request
-          </button>
+      <WhiteButton text="Get started" />
+      <GreenButton text="Submit a request" />
         </div>
       )}
     </nav>
