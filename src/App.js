@@ -7,7 +7,7 @@ import PropertyMaintenance from "./components/PropertyMaintenance";
 function App() {
   return (
         <>
-        <div className="mx-10">
+        <div className="mx-2 md:mx-10">
         <Navbar/>
         <Hero />
         <PropertyMaintenance/>
