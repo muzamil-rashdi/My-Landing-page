@@ -1,12 +1,17 @@
+import React from "react";
 import './App.css';
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
 
+import Navbar from "./components/Navbar";
+import Hero from "./components/Heros";
+import PropertyMaintenance from "./components/PropertyMaintenance";
 function App() {
   return (
-    <>
+        <>
+        <div className="mx-10">
         <Navbar/>
         <Hero />
+        <PropertyMaintenance/>
+        </div>
         </>
   );
 }

@@ -5,11 +5,11 @@ import WhiteButton from "../components/common/WhiteButton";
 import GreenButton from "../components/common/GreenButton";
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  const links = ["Home", "About", "Services", "Blog", "Contact"];
+  const links = ["Landlords", "Homeowners", "Vendors", "About us", "Contact us"];
 
   return (
     <nav
-      className="w-full max-w-[1440px] mx-auto h-[80px] px-[48px] py-4 flex items-center justify-between border-b border-[#F8F8F8] bg-white relative"
+      className="w-full max-w-[1440px] mx-auto h-[80px] px-[0px] py-4 flex items-center justify-between border-b border-[#F8F8F8] bg-white relative"
       style={{
         background: "var(--surface-surface_0, #FFFFFF)",
         borderBottom: "1px solid var(--outline-base_em, #F8F8F8)",
@@ -23,8 +23,8 @@ const Navbar = () => {
         {links.map((link) => (
           <a
             key={link}
-            href="#"
-            className="text-[#242424] hover:text-[#3CAB5C] transition w-20 flex justify-between items-center text-[#242424]"
+            href="/"
+            className="text-[#242424] hover:text-[#3CAB5C] transition w-22 flex justify-between items-center text-[#242424]"
           >
             {link}
             <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -58,7 +58,7 @@ const Navbar = () => {
           {links.map((link) => (
             <a
               key={link}
-              href="#"
+              href="/"
               className="text-gray-700 hover:text-[#3CAB5C] transition"
               onClick={() => setMenuOpen(false)}
             >
