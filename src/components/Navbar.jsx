@@ -1,0 +1,77 @@
+import React, { useState } from "react";
+import { HiMenu, HiX } from "react-icons/hi"; // for hamburger icons
+import logo from '../assets/icons/image.png';
+import WhiteButton from "../components/common/WhiteButton";
+import GreenButton from "../components/common/GreenButton";
+const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const links = ["Home", "About", "Services", "Blog", "Contact"];
+
+  return (
+    <nav
+      className="w-full max-w-[1440px] mx-auto h-[80px] px-[48px] py-4 flex items-center justify-between border-b border-[#F8F8F8] bg-white relative"
+      style={{
+        background: "var(--surface-surface_0, #FFFFFF)",
+        borderBottom: "1px solid var(--outline-base_em, #F8F8F8)",
+      }}
+    >
+
+
+  <img className="h-7 w-21" src={logo} alt="Logo" />
+
+ 
+      <div className="hidden md:flex gap-[20px]">
+        {links.map((link) => (
+          <a
+            key={link}
+            href="#"
+            className="text-[#242424] hover:text-[#3CAB5C] transition w-20 flex justify-between items-center text-[#242424]"
+          >
+            {link}
+            <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M5.71967 8.21967C6.01256 7.92678 6.48744 7.92678 6.78033 8.21967L10.5 11.9393L14.2197 8.21967C14.5126 7.92678 14.9874 7.92678 15.2803 8.21967C15.5732 8.51256 15.5732 8.98744 15.2803 9.28033L11.0303 13.5303C10.8897 13.671 10.6989 13.75 10.5 13.75C10.3011 13.75 10.1103 13.671 9.96967 13.5303L5.71967 9.28033C5.42678 8.98744 5.42678 8.51256 5.71967 8.21967Z" fill="#242424"/>
+</svg>
+
+          </a>
+        ))}
+      </div>
+
+      {/* Buttons (Desktop) */}
+      <div className="hidden md:flex gap-[20px]">
+      <WhiteButton text="Get started" />
+      <GreenButton text="Submit a request" />
+      </div>
+
+      {/* Hamburger Icon (Mobile) */}
+      <div className="md:hidden">
+        <button onClick={() => setMenuOpen(!menuOpen)}>
+          {menuOpen ? (
+            <HiX className="w-6 h-6" />
+          ) : (
+            <HiMenu className="w-6 h-6" />
+          )}
+        </button>
+      </div>
+
+      {/* Mobile Menu */}
+      {menuOpen && (
+        <div className="absolute top-[80px] left-0 w-full bg-white border-t border-gray-200 flex flex-col items-center gap-4 py-4 md:hidden z-50">
+          {links.map((link) => (
+            <a
+              key={link}
+              href="#"
+              className="text-gray-700 hover:text-[#3CAB5C] transition"
+              onClick={() => setMenuOpen(false)}
+            >
+              {link}
+            </a>
+          ))}
+      <WhiteButton text="Get started" />
+      <GreenButton text="Submit a request" />
+        </div>
+      )}
+    </nav>
+  );
+};
+
+export default Navbar;
