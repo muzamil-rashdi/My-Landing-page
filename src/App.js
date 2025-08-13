@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Heros";
 import PropertyMaintenance from "./components/PropertyMaintenance";
 import RepairManagemen from "./components/RepairManagement";
+import ProperteasyWorks from "./components/ProperteasyWorks";
 function App() {
   return (
         <>
@@ -13,7 +14,9 @@ function App() {
         <Hero />
         <PropertyMaintenance/>
         <RepairManagemen/>
+        <ProperteasyWorks/>
         </div>
+        
         </>
   );
 }
