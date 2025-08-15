@@ -7,6 +7,8 @@ import RepairManagement from "./components/RepairManagement";
 import ProperteasyWorks from "./components/ProperteasyWorks";
 import Pricing from "./components/Pricing";
 import WhatMakes from "./components/WhatMakes";
+import FAQs from "./components/FAQs";
+import Updated from "./components/Updated";
 function App() {
   return (
         <>
@@ -18,7 +20,9 @@ function App() {
         <ProperteasyWorks/>
         <Pricing/>
         <WhatMakes/>
+        <FAQs/>
         </div>
+        <Updated/>
         
         </>
   );

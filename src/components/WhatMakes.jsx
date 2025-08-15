@@ -1,5 +1,6 @@
 import React from "react";
 import RoundButton from "./common/RoundButton";
+import GreenButton from "./common/GreenButton";
 const WhatMakes = ({ text }) => {
   
   return (
@@ -116,6 +117,9 @@ const WhatMakes = ({ text }) => {
         
  </div>
          </div>
+         <div className="text-center">
+         <GreenButton text={"Get Started Now"}/>
+          </div>
         </section>
         </>
   );

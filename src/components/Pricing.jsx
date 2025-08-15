@@ -1,6 +1,5 @@
 import React from "react";
 import RoundButton from "./common/RoundButton";
-import FeatureCard from "../components/common/FeatureCard";
 const Pricing = () => {
   return (
     <>
