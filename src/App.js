@@ -1,11 +1,12 @@
 import React from "react";
 import './App.css';
-
 import Navbar from "./components/Navbar";
 import Hero from "./components/Heros";
 import PropertyMaintenance from "./components/PropertyMaintenance";
 import RepairManagemen from "./components/RepairManagement";
 import ProperteasyWorks from "./components/ProperteasyWorks";
+import Pricing from "./components/Pricing";
+import WhatMakes from "./components/WhatMakes";
 function App() {
   return (
         <>
@@ -15,6 +16,8 @@ function App() {
         <PropertyMaintenance/>
         <RepairManagemen/>
         <ProperteasyWorks/>
+        <Pricing/>
+        <WhatMakes/>
         </div>
         
         </>
