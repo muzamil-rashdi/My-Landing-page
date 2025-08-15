@@ -4,7 +4,7 @@ import FeatureCard from "../components/common/FeatureCard";
 const Pricing = () => {
   return (
     <>
-    <section className="my-20">
+    <section className="my-20 relative w-full max-w-[1344px]  mx-auto mt-10 sm:mt-20 my-10">
             <RoundButton text={"Pricing"}/>
        <h1 className="text-3xl md:text-6xl mt-2 md:mt-">
         Transparent Pricing & Clear Expectations

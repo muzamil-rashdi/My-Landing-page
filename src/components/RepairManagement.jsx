@@ -41,9 +41,7 @@ const RepairManagement = () => {
   return (
     
     <section  className="relative w-full max-w-[1344px] h-[1400] md:h-[701px] bg overflow-hidden mx-auto mt-10 sm:mt-20 my-10">
-        {    
 
-     }
         <div>
         <RoundButton text="End-to-End Repair Management"/>
         <h1 className="text-3xl md:text-6xl mt-2 md:mt-5">

@@ -2,9 +2,9 @@ import React from "react";
 import RoundButton from "./common/RoundButton";
 const ProperteasyWorks = () => {
   return (
-    <>
+   
     
-    <section className="my-20 mb-40">
+    <section className="relative w-full max-w-[1344px]  mx-auto mt-10 sm:mt-20 my-10">
     <RoundButton text={"How Properteasy Works"}/>
        <h1 className="text-3xl md:text-6xl mt-2 md:mt-">
         Here’s How We Make Repairs Easy
@@ -135,7 +135,7 @@ const ProperteasyWorks = () => {
 
 
     </section>
-    </>
+    
   );
 };
 

@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className="w-full max-w-[1440px] mx-auto h-[80px] px-[0px] py-4 flex items-center justify-between border-b border-[#F8F8F8] bg-white relative"
+      className="w-full max-w-[1440px] mx-auto h-[80px] px-[0px] py-4 flex items-center justify-between border-b border-[#F8F8F8] bg-white relative relative w-full max-w-[1350px]  mx-auto "
       style={{
         background: "var(--surface-surface_0, #FFFFFF)",
         borderBottom: "1px solid var(--outline-base_em, #F8F8F8)",

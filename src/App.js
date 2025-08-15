@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from "./components/Navbar";
 import Hero from "./components/Heros";
 import PropertyMaintenance from "./components/PropertyMaintenance";
-import RepairManagemen from "./components/RepairManagement";
+import RepairManagement from "./components/RepairManagement";
 import ProperteasyWorks from "./components/ProperteasyWorks";
 import Pricing from "./components/Pricing";
 import WhatMakes from "./components/WhatMakes";
@@ -14,7 +14,7 @@ function App() {
         <Navbar/>
         <Hero />
         <PropertyMaintenance/>
-        <RepairManagemen/>
+        <RepairManagement/>
         <ProperteasyWorks/>
         <Pricing/>
         <WhatMakes/>
