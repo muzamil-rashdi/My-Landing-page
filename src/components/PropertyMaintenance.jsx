@@ -18,7 +18,7 @@ const PropertyMaintenance = () => {
                 </svg>
      );
   return (
-    <section  className="relative w-full max-w-[1344px] h-[1400] md:h-[701px] bg overflow-hidden mx-auto mt-10 sm:mt-20 my-10">
+    <section  className="relative w-full max-w-[1344px] h-[1400] lg:h-[701px] bg overflow-hidden mx-auto mt-10 sm:mt-20 my-10">
         <div>
         <RoundButton text="Property Maintenance"/>
         <h1 className="text-3xl md:text-6xl mt-2 md:mt-5">
@@ -28,7 +28,7 @@ const PropertyMaintenance = () => {
             We handle repair requests from start to finish, including vendor dispatch and real-time progress updates. You stay in control without dealing with calls, scheduling, or follow ups.
         </p>
         </div>
-        <div className="my-12 flex gap-1 flex-col lg:flex-row justify-center items center">
+        <div className="my-12 flex gap-4 md:gap-2 flex-col lg:flex-row justify-center items center ">
                
 
 

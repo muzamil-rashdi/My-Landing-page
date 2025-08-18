@@ -12,7 +12,7 @@ const Updated = () => {
 
   return (
     <section
-      className="relative w-full max-w-[1500px] h-[500px]  overflow-hidden mx-auto flex items-center justify-center text-center px-6"
+      className="relative w-full max-w-[1500px] h-[650px]  overflow-hidden mx-auto flex items-center justify-center text-center px-6"
       style={{
         backgroundImage: `url(${BgUpdated})`,
         backgroundSize: "cover",
@@ -25,7 +25,7 @@ const Updated = () => {
       {/* Content */}
       <div className="relative z-10 text-white ">
       
-          <div className="rounded-full overflow-hidden inline-block mb-5">
+          <div className="rounded-full overflow-hidden inline-block mb-5 mt-10 lg:mt-0">
         <GreenButton text={"Stay updated "} />
       </div>
 

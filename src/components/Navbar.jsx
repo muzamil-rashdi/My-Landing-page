@@ -24,7 +24,7 @@ const Navbar = () => {
           <a
             key={link}
             href="/"
-            className="text-[#242424] hover:text-[#3CAB5C] transition w-22 flex justify-between items-center text-[#242424]"
+            className="text-[#242424] hover:text-[#3CAB5C] transition w-24 flex justify-between items-center text-[#242424] hidden xl:flex"
           >
             {link}
             <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -36,13 +36,13 @@ const Navbar = () => {
       </div>
 
       
-      <div className="hidden md:flex gap-[20px]">
+      <div className="hidden xl:flex gap-[20px]">
       <WhiteButton text="Get started" />
       <GreenButton text="Submit a request" />
       </div>
 
      
-      <div className="md:hidden">
+      <div className="xl:hidden">
         <button onClick={() => setMenuOpen(!menuOpen)}>
           {menuOpen ? (
             <HiX className="w-6 h-6" />

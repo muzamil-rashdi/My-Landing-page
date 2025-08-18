@@ -40,18 +40,18 @@ const RepairManagement = () => {
  
   return (
     
-    <section  className="relative w-full max-w-[1344px] h-[1400] md:h-[701px] bg overflow-hidden mx-auto mt-10 sm:mt-20 my-10">
+    <section  className="relative w-full max-w-[1344px] h-[1400] lg:h-[701px] bg overflow-hidden mx-auto mt-10 sm:mt-20 my-10 ">
 
         <div>
         <RoundButton text="End-to-End Repair Management"/>
         <h1 className="text-3xl md:text-6xl mt-2 md:mt-5">
             Service Professionals You Can Trust
         </h1>
-        <p className="text-md md:text-xl mt-3 md:mt-16 text-[#808080] tracking-tighter">
+        <p className="text-md md:text-xl mt-3 md:mt-16 text-[#808080] tracking-tighter leading-tight">
             We get it, finding a trusted professional is hard. Properteasy removes the guesswork by vetting every service professional before they ever reach your door.
         </p>
         </div>
-        <div className="my-12 flex gap-1 flex-col lg:flex-row justify-center items center">
+        <div className="my-12 flex gap-3 md:gap-2 flex-col lg:flex-row justify-center items center ">
 
                  <div className="flex-1 mx-0">
                    <FeatureCard
@@ -81,7 +81,7 @@ const RepairManagement = () => {
                   />
                 </div>
         </div>
-                <p className="text-md  tracking-tighter md:text-xl mt-3 md:mt-16 text-[#808080]">
+                <p className="text-md  tracking-tighter md:text-xl mt-3 md:mt-16 text-[#808080] leading-tight">
             Our rigorous evaluation process includes license and insurance verification, as well as client reference validation. Only those who demonstrate consistent excellence and reliability are given the opportunity to serve our landlords and their tenants.
         </p>
                 <p className="text-md  tracking-tighter md:text-xl mt-3 md:mt-10 text-[#808080] leading-tight">
