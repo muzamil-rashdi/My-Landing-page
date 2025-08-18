@@ -5,7 +5,7 @@ import GreenButton from "../components/common/GreenButton";
 const Hero = () => {
   return (
     <section
-      className="
+      className="font-neue
         relative w-full max-w-[1344px] h-[701px] rounded-[20px] overflow-hidden mx-auto
         sm:h-[600px] md:h-[500px] lg:h-[600px] xl:h-[701px]
       "
@@ -32,6 +32,7 @@ const Hero = () => {
             leading-tight sm:leading-snug md:leading-snug lg:leading-[1.2]
             tracking-normal
             text-center m-0
+            font-neue
           "
         >
           Owning Rental Properties is Not Supposed to be a Full Time Job

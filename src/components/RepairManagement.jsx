@@ -44,10 +44,10 @@ const RepairManagement = () => {
 
         <div>
         <RoundButton text="End-to-End Repair Management"/>
-        <h1 className="text-3xl md:text-6xl mt-2 md:mt-5">
+        <h1 className="text-3xl md:text-6xl mt-2 md:mt-5 font-neue ">
             Service Professionals You Can Trust
         </h1>
-        <p className="text-md md:text-xl mt-3 md:mt-16 text-[#808080] tracking-tighter leading-tight">
+        <p className="font-neue font-400 text-md md:text-xl mt-3 md:mt-16 text-[#242424] ">
             We get it, finding a trusted professional is hard. Properteasy removes the guesswork by vetting every service professional before they ever reach your door.
         </p>
         </div>
@@ -81,10 +81,10 @@ const RepairManagement = () => {
                   />
                 </div>
         </div>
-                <p className="text-md  tracking-tighter md:text-xl mt-3 md:mt-16 text-[#808080] leading-tight">
+                <p className="text-md   md:text-xl mt-3 md:mt-16 text-[#242424] font-neue">
             Our rigorous evaluation process includes license and insurance verification, as well as client reference validation. Only those who demonstrate consistent excellence and reliability are given the opportunity to serve our landlords and their tenants.
         </p>
-                <p className="text-md  tracking-tighter md:text-xl mt-3 md:mt-10 text-[#808080] leading-tight">
+                <p className="text-md   md:text-xl mt-3 md:mt-10 text-[#242424] font-neue">
 Our screening process is hands on, ensuring only the most dependable, skilled, and trustworthy vendors make the cut. Our service providers are established local tradesmen with proven track records, the professionals you wish you had from the start. With Properteasy, now you do.
         </p>
     </section>

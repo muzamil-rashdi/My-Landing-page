@@ -4,7 +4,12 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+            fontFamily: {
+        neue: ['"Neue Haas Display1"', 'sans-serif'],
+        albert: ['"Albert Sans"', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }

@@ -7,8 +7,8 @@ import React from "react";
 
     >
       {svg && <div>{svg}</div>}
-      <h4 className="text-xl font-semibold">{title}</h4>
-      {description && <p className="text-[#595959]">{description}</p>}
+      <h4 className="text-xl #242424 font-neue">{title}</h4>
+      {description && <p className="text-[#595959] font-neue">{description}</p>}
     </div>
   );
 }

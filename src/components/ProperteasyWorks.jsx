@@ -4,9 +4,9 @@ const ProperteasyWorks = () => {
   return (
    
     
-    <section className="relative w-full max-w-[1344px]  mx-auto mt-10 sm:mt-20 my-10">
+    <section className=" font-neue relative w-full max-w-[1344px]  mx-auto mt-10 sm:mt-20 my-10">
     <RoundButton text={"How Properteasy Works"}/>
-       <h1 className="text-3xl md:text-6xl mt-2 md:mt-">
+       <h1 className="font-neue text-3xl md:text-6xl mt-2 md:mt-">
         Here’s How We Make Repairs Easy
          </h1>
          <div className="flex flex-col w-full h-full mt-20 gap-5 md:gap-2">
@@ -28,8 +28,8 @@ const ProperteasyWorks = () => {
                                     </span>
                     <div className="flex-1"></div>
                     <div className="flex-1 flex flex-col gap-6">
-                         <h2 className="text-2xl lg:text-3xl ">Tenant submits repair request</h2>
-                         <p className="text-md lg:text-xl font-normal">Your tenant reports any issue through Properteasy by providing details and images. This gives us everything we need to get started. No landlord action is required.</p>
+                         <h2 className="text-2xl lg:text-4xl font-neue">Tenant submits repair request</h2>
+                         <p className="text-md lg:text-xl font-normal tracking-[0.025em] font-neue">Your tenant reports any issue through Properteasy by providing details and images. This gives us everything we need to get started. No landlord action is required.</p>
                     </div>
                 </div>
 
@@ -46,8 +46,8 @@ const ProperteasyWorks = () => {
                                     </span>
                     <div className="flex-[1]"></div>
                     <div className="flex-[1] flex flex-col gap-6">
-                          <h2 className="text-2xl lg:text-3xl">If you feel the work needs to be done, approve it!</h2>
-                          <p className="text-md lg:text-xl font-normal text-[#6b6a6a]">You’re instantly notified of the request and can review the details and estimate at your leisure. If you choose to move forward, simply approve it with one click.</p>
+                          <h2 className="text-2xl lg:text-4xl">If you feel the work needs to be done, approve it!</h2>
+                          <p className="text-md lg:text-xl font-normal text-[#242424]">You’re instantly notified of the request and can review the details and estimate at your leisure. If you choose to move forward, simply approve it with one click.</p>
                     </div>
                 </div>
             </div>
@@ -69,8 +69,8 @@ const ProperteasyWorks = () => {
                                     </span>
                     <div className="flex-1"></div>
                      <div className="flex-1 flex flex-col gap-6">
-                     <h2 className="text-2xl lg:text-3xl">We assess the issue and <br/> broadcast the job to the most suitable vendors</h2>
-                     <p className="text-md lg:text-xl text-[#6b6a6a]">Properteasy reviews the request, identifies the issue, and assigns it to the most qualified, local professionals.</p>
+                     <h2 className="text-2xl lg:text-4xl">We assess the issue and <br/> broadcast the job to the most suitable vendors</h2>
+                     <p className="text-md lg:text-xl text-[#242424] font-neue">Properteasy reviews the request, identifies the issue, and assigns it to the most qualified, local professionals.</p>
                 </div>
 
 
@@ -88,8 +88,8 @@ const ProperteasyWorks = () => {
                                     </span>
                      <div className="flex-1"></div>
                      <div className="flex-1 flex flex-col gap-6">
-                     <h2 className="text-2xl lg:text-3xl">Once a vendor accepts the job, your tenant schedules the job seamlessly</h2>
-                     <p className="text-md lg:text-xl text-[#6b6a6a]">A qualified vendor reviews the details and accepts the job. Your tenant schedules a time that works for them through our platform. They can alternatively provide access instructions so the work can get done, even if nobody’s home.</p>
+                     <h2 className="text-2xl lg:text-4xl">Once a vendor accepts the job, your tenant schedules the job seamlessly</h2>
+                     <p className="text-md lg:text-xl text-[#242424]">A qualified vendor reviews the details and accepts the job. Your tenant schedules a time that works for them through our platform. They can alternatively provide access instructions so the work can get done, even if nobody’s home.</p>
                     </div>
                 </div>
             </div>
@@ -108,8 +108,8 @@ const ProperteasyWorks = () => {
                                     </span>
                    <div className="flex-1"></div>
                     <div className="flex-1 flex flex-col gap-7">
-                         <h2 className="text-2xl lg:text-3xl">You're kept in the loop every step of the way</h2>
-                          <p className="text-md lg:text-xl font-normal text-[#6b6a6a]">You receive real-time updates throughout the process so you always know what’s happening with your property, and when. No more wondering or chasing down job status from afar.</p>
+                         <h2 className="text-2xl lg:text-4xl">You're kept in the loop every step of the way</h2>
+                          <p className="text-md lg:text-xl font-normal text-[#242424]">You receive real-time updates throughout the process so you always know what’s happening with your property, and when. No more wondering or chasing down job status from afar.</p>
                     </div>
                 </div>
                 <div className="relative text-black flex-1 bg-[#ECEEF2] rounded-xl flex flex-col px-4 py-6">
@@ -125,8 +125,8 @@ const ProperteasyWorks = () => {
                                     </span>
                                 <div className="flex-1"></div>
                     <div className="flex-1 flex flex-col gap-7">
-                         <h2 className="text-2xl lg:text-3xl">Pay when the work is completed</h2>
-                          <p className="text-md lg:text-xl font-normal text-[#6b6a6a]">Once the maintenance request is resolved, you’ll receive a final invoice. All payments are made securely and conveniently through Properteasy.</p>
+                         <h2 className="text-2xl lg:text-4xl">Pay when the work is completed</h2>
+                          <p className="text-md lg:text-xl font-normal text-[#242424]">Once the maintenance request is resolved, you’ll receive a final invoice. All payments are made securely and conveniently through Properteasy.</p>
                     </div>
                      </div>
             </div>

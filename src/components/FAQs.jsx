@@ -48,11 +48,11 @@ const FAQs = () => {
   };
 
   return (
-    <section className="relative w-full max-w-[1344px] mx-auto mt-10 sm:mt-20 my-10">
+    <section className="font-neue relative w-full max-w-[1344px] mx-auto mt-10 sm:mt-20 my-10">
 
 
 
-      <div className="flex flex-col md:flex-row gap-40 md:gap-16 ">
+      <div className="flex flex-col md:flex-row gap-10 lg:gap-40 md:gap-16 ">
          {/* --- left SIDE ---- */}
             <div className="flex-1 flex flex-col justify-between">
                 <div>
@@ -111,7 +111,7 @@ const FAQs = () => {
                     isOpen ? "max-h-40 opacity-100 " : "max-h-0 opacity-0"
                   }`}
                 >
-                  <p className="pb-4 text-[#333333] tracking-tighter">{item.answer}</p>
+                  <p className="pb-4 text-[#333333] ">{item.answer}</p>
                 </div>
               </div>
             );

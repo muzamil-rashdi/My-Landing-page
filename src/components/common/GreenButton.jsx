@@ -7,7 +7,7 @@ const GreenButton = ({ text }) => {
       className="
         bg-[#3CAB5C] 
         text-white 
-        px-2 sm:px-3 md:px-3 lg:px-4 
+        px-3 sm:px-3 md:px-3 lg:px-4 
         py-2 sm:py-2 md:py-2 
         text-sm sm:text-base md:text-lg 
         rounded-xl 

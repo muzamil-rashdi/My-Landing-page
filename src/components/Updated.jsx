@@ -12,7 +12,7 @@ const Updated = () => {
 
   return (
     <section
-      className="relative w-full max-w-[1500px] h-[650px]  overflow-hidden mx-auto flex items-center justify-center text-center px-6"
+      className="font-neue relative w-full max-w-[1500px] h-[650px]  overflow-hidden mx-auto flex items-center justify-center text-center px-6"
       style={{
         backgroundImage: `url(${BgUpdated})`,
         backgroundSize: "cover",

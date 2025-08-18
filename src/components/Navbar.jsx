@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className="w-full max-w-[1440px] mx-auto h-[80px] px-[0px] py-4 flex items-center justify-between border-b border-[#F8F8F8] bg-white relative relative w-full max-w-[1350px]  mx-auto "
+      className="font-albert w-full max-w-[1440px] mx-auto h-[80px] px-[0px] py-4 flex items-center justify-between border-b border-[#F8F8F8] bg-white relative relative w-full max-w-[1350px]  mx-auto "
       style={{
         background: "var(--surface-surface_0, #FFFFFF)",
         borderBottom: "1px solid var(--outline-base_em, #F8F8F8)",
@@ -24,7 +24,7 @@ const Navbar = () => {
           <a
             key={link}
             href="/"
-            className="text-[#242424] hover:text-[#3CAB5C] transition w-24 flex justify-between items-center text-[#242424] hidden xl:flex"
+            className="text-[#242424] hover:text-[#3CAB5C] transition w-22 flex justify-between items-center text-[#242424] hidden xl:flex"
           >
             {link}
             <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
