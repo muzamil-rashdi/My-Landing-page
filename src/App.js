@@ -9,6 +9,7 @@ import Pricing from "./components/Pricing";
 import WhatMakes from "./components/WhatMakes";
 import FAQs from "./components/FAQs";
 import Updated from "./components/Updated";
+import Foter from "./components/Foter";
 function App() {
   return (
         <>
@@ -23,7 +24,7 @@ function App() {
         <FAQs/>
         </div>
         <Updated/>
-        
+        <Foter/>
         </>
   );
 }

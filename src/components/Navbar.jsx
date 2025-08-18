@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { HiMenu, HiX } from "react-icons/hi"; // for hamburger icons
+import { HiMenu, HiX } from "react-icons/hi"; 
 import logo from '../assets/icons/image.png';
 import WhiteButton from "../components/common/WhiteButton";
 import GreenButton from "../components/common/GreenButton";
@@ -35,13 +35,13 @@ const Navbar = () => {
         ))}
       </div>
 
-      {/* Buttons (Desktop) */}
+      
       <div className="hidden md:flex gap-[20px]">
       <WhiteButton text="Get started" />
       <GreenButton text="Submit a request" />
       </div>
 
-      {/* Hamburger Icon (Mobile) */}
+     
       <div className="md:hidden">
         <button onClick={() => setMenuOpen(!menuOpen)}>
           {menuOpen ? (
@@ -52,7 +52,7 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Mobile Menu */}
+      
       {menuOpen && (
         <div className="absolute top-[80px] left-0 w-full bg-white border-t border-gray-200 flex flex-col items-center gap-4 py-4 md:hidden z-50">
           {links.map((link) => (

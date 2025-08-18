@@ -80,7 +80,7 @@ const FAQs = () => {
 
             return (
               <div
-                key={item.id}
+                
                 className={` transition-colors duration-500 border-b  ${
                   isOpen ? "border-transparent" : "border-gray-300"
                 }`}
