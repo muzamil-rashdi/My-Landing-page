@@ -52,6 +52,7 @@ const Navbar = () => {
         </button>
       </div>
 
+
       
       {menuOpen && (
         <div className="absolute top-[80px] left-0 w-full bg-white border-t border-gray-200 flex flex-col items-center gap-4 py-4 md:hidden z-50">
