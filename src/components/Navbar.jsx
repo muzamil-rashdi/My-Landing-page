@@ -8,6 +8,7 @@ const Navbar = () => {
   const links = ["Home", "Maintenance", "Pricing", "FAQs", "Updated"];
 
   return (
+    
     <nav
       className="font-albert w-full max-w-[1440px] mx-auto h-[80px] px-[0px] py-4 flex items-center justify-between border-b border-[#F8F8F8] bg-white relative relative w-full max-w-[1350px]  mx-auto "
       style={{
