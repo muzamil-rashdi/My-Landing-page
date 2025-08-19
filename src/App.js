@@ -15,14 +15,19 @@ function App() {
         <>
         <div className="mx-2 md:mx-10">
         <Navbar/>
+        <section id="Home" ></section>
         <Hero />
+        <section id="Maintenance" ></section>
         <PropertyMaintenance/>
         <RepairManagement/>
         <ProperteasyWorks/>
+         <section id="Pricing" ></section>
         <Pricing/>
         <WhatMakes/>
+         <section id="FAQs" ></section>
         <FAQs/>
         </div>
+        <section id="Updated" ></section>
         <Updated/>
         <Foter/>
         </>

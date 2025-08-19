@@ -2,16 +2,12 @@ import React from "react";
 import BgUpdated from "../assets/images/bgupdated.jpg";
 import GreenButton from "../components/common/GreenButton";
 const Updated = () => {
-  const but=(
-              <button
-            type="submit"  
-          >
-            Subscribe to our Newsletter
-          </button>
-  )
+  const but="Subscribe to our Newslette"
+          
+  
 
   return (
-    <section
+    <section 
       className="font-neue relative w-full max-w-[1500px] h-[650px]  overflow-hidden mx-auto flex items-center justify-center text-center px-6"
       style={{
         backgroundImage: `url(${BgUpdated})`,

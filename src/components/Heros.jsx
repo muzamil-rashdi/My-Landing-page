@@ -5,6 +5,7 @@ import GreenButton from "../components/common/GreenButton";
 const Hero = () => {
   return (
     <section
+   
       className="font-neue
         relative w-full max-w-[1344px] h-[701px] rounded-[20px] overflow-hidden mx-auto
         sm:h-[600px] md:h-[500px] lg:h-[600px] xl:h-[701px]
