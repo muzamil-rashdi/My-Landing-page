@@ -5,6 +5,7 @@ const WhatMakes = () => {
   const [itemHeights, setItemHeights] = useState([]);
   const [isCalculated, setIsCalculated] = useState(false);
   const containerRef = useRef(null);
+  
   // Left card data (Self Management)
   const leftCards = [
     {
